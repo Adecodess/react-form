@@ -7,10 +7,17 @@ function App() {
     setIsSubmitted(true);
   };
 
+  const refreshForm = () => {
+    setIsSubmitted(false);
+  };
+
   return (
     <>
       <div className="form-container">
-        <span className="close-btn">x</span>
+        {/* <span className="close-btn">x</span> */}
+        <button className="close-btn" onClick={refreshForm}>
+          x
+        </button>
         <div className="form-content-left">
           <img src="img/img-2.svg" alt="spaceship" className="form-img" />
         </div>

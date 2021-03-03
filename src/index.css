@@ -20,7 +20,7 @@ body {
   box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
   position: relative;
   border-radius: 10px;
-  height: 600px;
+  height: 700px;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
@@ -31,8 +31,11 @@ body {
   right: 3%;
   font-size: 1.5rem;
   z-index: 1;
-  color: #fff;
+  /* color: #fff; */
+  color: black;
   cursor: pointer;
+  border: none;
+  outline: none;
 }
 
 .form-content-left {
@@ -104,7 +107,7 @@ body {
 
 .form-inputs p {
   font-size: 0.8rem;
-  margin-top: 0.5rem;
+  margin-top: 0.3rem;
   color: #f00e0e;
 }
 
@@ -171,15 +174,15 @@ body {
   font-weight: 600;
 }
 .icon {
-  color: red;
+  /* color: red; */
   position: absolute;
-  top: 59%;
+  top: 57%;
   right: 53px;
 }
 
 .iccon {
   position: absolute;
-  bottom: 26.5%;
+  bottom: 30%;
   right: 53px;
 }
 

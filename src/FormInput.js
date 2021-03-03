@@ -80,7 +80,6 @@ const FormInput = ({ submitForm }) => {
               className="form-input"
               onChange={handleChange}
               placeholder="enter  password"
-              // {...(passwordShown ? "text" : "password")}
             ></input>
             <i>
               <FaEye className="icon" onClick={togglePasswordVisiblity} />
