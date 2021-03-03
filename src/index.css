@@ -200,6 +200,7 @@ i:hover {
 
   .close-btn {
     position: absolute;
+    background-color: grey;
     top: 2%;
     right: 2%;
   }
