@@ -194,29 +194,29 @@ i:hover {
 @media screen and (max-width: 992px) {
   .form-container {
     width: 23.5em;
-    height: 40em;
+    height: 50em;
     margin: 3em auto;
   }
 
   .close-btn {
     position: absolute;
-    top: 1%;
+    top: 4%;
     right: 2%;
   }
   .form-img {
-    width: 70%;
+    width: 80%;
     height: 80%;
   }
   .form {
     top: 50%;
     left: 45%;
-    width: 100%;
+    width: 110%;
     height: 50%;
   }
 
   .form-input {
     height: 40px;
-    width: 110%;
+    width: 107%;
   }
   .form-input::placeholder {
     font-size: 15px;
@@ -224,13 +224,13 @@ i:hover {
   .icon {
     color: black;
     position: absolute;
-    top: 15.6em;
+    top: 18em;
     right: 17px;
   }
   .iccon {
     color: black;
     position: absolute;
-    top: 20em;
+    top: 22.5em;
     right: 14px;
   }
 }
